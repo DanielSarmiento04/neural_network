@@ -44,3 +44,15 @@ X1*W_{11} + X_2 *W_{12} + X_3* W_{13} + ...  + X_n *W_{1n} \\
 X1*W_{21} + X_2 *W_{22} + X_3* W_{23} + ...  + X_n *W_{2n} \\                    ...  \\                          X1*W_{m1} + X_2 *W_{m2} + X_3* W_{m3} + ...  + X_n *W_{mn}\\
 \end{vmatrix}_{mx1}  
  $$
+
+
+$$
+\left(\begin{array}{cc} 
+0.8944272 & 0.4472136\\
+-0.4472136 & -0.8944272
+\end{array}\right)
+\left(\begin{array}{cc} 
+10 & 0\\ 
+0 & 5
+\end{array}\right)
+$$ 
