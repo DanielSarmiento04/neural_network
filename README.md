@@ -48,10 +48,7 @@ X_{n}
 \end{pmatrix}
 $$
 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
-$$
-\begin{pmatrix}
+$$ x = \begin{pmatrix}
 X_{1} * W_{11} + X_{2} * W_{12} + X_{3} * W_{13} + ... + X_{n} * W_{1n} \\
 X_{1} * W_{21} + X_{2} * W_{22} + X_{3} * W_{23} + ... + X_{n} * W_{2n} \\
 ... \\
