@@ -30,29 +30,26 @@ The perceptron is an artificial neuron that seeks to imitate the functioning of 
 
 ![Screenshot 2023-08-18 at 9.03.11 PM.png](docs/Screenshot_2023-08-18_at_9.03.11_PM.png)
 
-
-
-$$ 
-\begin{vmatrix}
-W_{11} & W_{12} & W_{13} & ... & W_{1n} \\
-W_{21} & W_{22} & W_{23} & ... & W_{2n} \\                              ... & ... & ... &  & ... \\                                             W_{m1} & W_{m2} & W_{m3} & ... & W_{mn} \\
-\end{vmatrix}_{mxn} *           \begin{vmatrix}
-X_{1} \\
-X_{2} \\                              X_{3} \\                                         ...   \\                                                       X_{n} \\
-\end{vmatrix}_{n x 1} = \begin{vmatrix}
-X1*W_{11} + X_2 *W_{12} + X_3* W_{13} + ...  + X_n *W_{1n} \\
-X1*W_{21} + X_2 *W_{22} + X_3* W_{23} + ...  + X_n *W_{2n} \\                    ...  \\                          X1*W_{m1} + X_2 *W_{m2} + X_3* W_{m3} + ...  + X_n *W_{mn}\\
-\end{vmatrix}_{mx1}  
- $$
-
-
 $$
 \left(\begin{array}{cc} 
-0.8944272 & 0.4472136\\
--0.4472136 & -0.8944272
+W_{11} & W_{12} & W_{13} & ... & W_{1n} \\
+W_{21} & W_{22} & W_{23} & ... & W_{2n} \\
+... & ... & ... &  & ...                \\
+W_{m1} & W_{m2} & W_{m3} & ... & W_{mn} 
 \end{array}\right)
+*
 \left(\begin{array}{cc} 
-10 & 0\\ 
-0 & 5
+X_{1} \\
+X_{2} \\
+X_{3} \\
+... \\
+ X_{n}
+\end{array}\right)
+=
+\left(\begin{array}{cc} 
+X1*W_{11} + X_2 *W_{12} + X_3* W_{13} + ...  + X_n *W_{1n} \\
+X1*W_{21} + X_2 *W_{22} + X_3* W_{23} + ...  + X_n *W_{2n} \\
+... \\
+X1*W_{m1} + X_2 *W_{m2} + X_3* W_{m3} + ...  + X_n *W_{mn}
 \end{array}\right)
 $$ 
