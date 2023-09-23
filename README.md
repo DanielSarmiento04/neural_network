@@ -67,3 +67,32 @@ sigmoid = lambda x : 1 / (1 + np.exp(-x))
 step = lambda x: np.piecewise(x, [x < 0, x >= 0], [0, 1])
 relu = lambda x : np.piecewise(x, [x < 0, x >= 0], [0, lambda a : a])
 ```
+
+### Loses functions
+
+They are functions that measure the percentage of error that the network model had, for practical purposes the lowest value is the best
+
+- Learning rate ⇒ It means the pace with which the value will be measured. Consider the following case
+     - Very short steps, greater ability to find the minimum error, however it has a high computational cost.
+     - Very long steps, lousy performance, may not find the minimum value of the loss function due to its high volatility in the function
+
+Moment ⇒ It is used to calculate the rate or speed of Learning rate in order to find the global minimum.
+
+
+### Data types 
+
+- Scalar, it has no dimension.
+- Vector, one dimension.
+- Matrix, two vectors.
+- Tensor, greater than 3 dimensions.
+
+Time series, 3 dimensions,
+
+1. Number of examples.
+2. Characteristics of the examples
+3. Change of the example over time.
+
+4 dimensions
+
+Images, rgb, + quantities of examples
+
