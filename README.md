@@ -36,13 +36,9 @@ $$
 W_{11} & W_{12} & W_{13} & ... & W_{1n} \\
 W_{21} & W_{22} & W_{23} & ... & W_{2n} \\
 \end{pmatrix}
-*
+$$
 
-\begin{pmatrix}
-10 & 0\\ 
-0 & 5
-\end{pmatrix}
-= 
+$$
 \begin{pmatrix}
 10 & 0\\ 
 0 & 5
