@@ -32,7 +32,7 @@ The perceptron is an artificial neuron that seeks to imitate the functioning of 
 
 
 
-$$
+$$ 
 \begin{vmatrix}
 W_{11} & W_{12} & W_{13} & ... & W_{1n} \\
 W_{21} & W_{22} & W_{23} & ... & W_{2n} \\                              ... & ... & ... &  & ... \\                                             W_{m1} & W_{m2} & W_{m3} & ... & W_{mn} \\
@@ -43,4 +43,4 @@ X_{2} \\                              X_{3} \\                                  
 X1*W_{11} + X_2 *W_{12} + X_3* W_{13} + ...  + X_n *W_{1n} \\
 X1*W_{21} + X_2 *W_{22} + X_3* W_{23} + ...  + X_n *W_{2n} \\                    ...  \\                          X1*W_{m1} + X_2 *W_{m2} + X_3* W_{m3} + ...  + X_n *W_{mn}\\
 \end{vmatrix}_{mx1}  
-$$
+ $$
