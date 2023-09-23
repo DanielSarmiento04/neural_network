@@ -48,9 +48,7 @@ X_{n}
 \end{pmatrix}
 $$
 
-$$
-==
-$$
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 $$
 \begin{pmatrix}
