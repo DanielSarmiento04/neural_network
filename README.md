@@ -30,19 +30,20 @@ The perceptron is an artificial neuron that seeks to imitate the functioning of 
 
 ![Screenshot 2023-08-18 at 9.03.11 PM.png](docs/Screenshot_2023-08-18_at_9.03.11_PM.png)
 
-$$
-\left(\begin{array}{cccc} 
-0.8944272 & 0.4472136\\
--0.4472136 & -0.8944272
-\end{array}\right)
-\left(\begin{array}{cc} 
-10 & 0\\ 
-0 & 5
-\end{array}\right)
-$$ 
 
 $$
-\left(\begin{array}{cccc} 
+\begin{pmatrix}
+0.8944272 & 0.4472136\\
+-0.4472136 & -0.8944272
+\end{pmatrix}
+\begin{pmatrix}
+10 & 0\\ 
+0 & 5
+\end{pmatrix}
+$$
+
+$$
+\left(\begin{array}{cc} 
 W_{11} & W_{12} & W_{13} & ... & W_{1n} \\
 W_{21} & W_{22} & W_{23} & ... & W_{2n} \\
 ... & ... & ... &  & ...                \\
