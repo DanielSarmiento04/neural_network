@@ -1,19 +1,23 @@
-# neural_network
+# **Neural Network**
 
 ## Resume 
 
 Artificial neural networks are an attempt to simulate the learning behavior of the brain. The first experiments involve connecting parts of the brain to stimulate learning
 
 ## Table of Contents
+1. [Available library](#available-library)
+2. [Types of IA tools](#types-of-ia-tools)
+3. [Neurons](#neurons)
+4. [What is an Activation Function ](#what-is-an-activation-function)
+5. [Loses functions](#loses-functions)
+6. [Key concepts](#key-concepts)
 
-![https://images.app.goo.gl/aJ2Jga1WPVdSqxXv7](docs/neurona.png)
-
-### Available library
+## Available library
 
 1. [TensorFlow](https://www.tensorflow.org/)
 2. [PyTorch](https://pytorch.org/)
 
-### Types of IA tools
+## Types of IA tools
 
 Artificial intelligence ⇒ Seeks to replicate human intelligence.
 
@@ -22,8 +26,9 @@ Machine learning ⇒ Techniques that seek to replicate machine learning.
 Deep learning ⇒ Deep learning,
 
 
-### Neurons
+## Neurons
 
+![https://images.app.goo.gl/aJ2Jga1WPVdSqxXv7](docs/neurona.png)
 > Interconnected nerve cells
 
 The perceptron is an artificial neuron that seeks to imitate the functioning of the brain's neurons. The objective is to have several perceivers in order to communicate with each other. This is done in order to include atypical cases. It is used in supervised learning. , in this way the weights are altered as the results coincide with the real data
@@ -86,6 +91,9 @@ Moment ⇒ It is used to calculate the rate or speed of Learning rate in order t
 - Matrix, two vectors.
 - Tensor, greater than 3 dimensions.
 
+
+### Key Concepts
+
 Time series, 3 dimensions,
 
 1. Number of examples.
@@ -95,4 +103,7 @@ Time series, 3 dimensions,
 4 dimensions
 
 Images, rgb, + quantities of examples
+
+## References
+
 
