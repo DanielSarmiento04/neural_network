@@ -108,6 +108,12 @@ Time series, 3 dimensions,
 
 Images, rgb, + quantities of examples
 
+
+### Example cases
+
+- ### Binary Classification
+
+
 ## References
 
 Neurona. (2023, 26 de septiembre). Wikipedia, La enciclopedia libre. Fecha de consulta: 22:26, septiembre 26, 2023 desde https://es.wikipedia.org/w/index.php?title=Neurona&oldid=154069947.
