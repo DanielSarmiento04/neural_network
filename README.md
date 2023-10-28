@@ -32,12 +32,20 @@ It is a main component cell of the nervous system, whose main function is to rec
 
 An artificial neural network try to simulate the natural behavior, Perceptron is the name of the main artificial neuron.
 
-![https://images.app.goo.gl/aJ2Jga1WPVdSqxXv7](docs/neurona.png)
+<p align="center">
+  <img src="docs/neurona.png" height ="300px">
+</p>
+
+
 > Interconnected nerve cells
 
 The perceptron is an artificial neuron that seeks to imitate the functioning of the brain's neurons. The objective is to have several perceivers in order to communicate with each other. This is done in order to include atypical cases. It is used in supervised learning. , in this way the weights are altered as the results coincide with the real data
 
-![Screenshot 2023-08-18 at 9.03.11 PM.png](docs/Screenshot_2023-08-18_at_9.03.11_PM.png)
+<p align="center">
+  <img src="docs/Screenshot_2023-08-18_at_9.03.11_PM.png" height ="300px">
+</p>
+
+<!-- ![Screenshot 2023-08-18 at 9.03.11 PM.png](docs/Screenshot_2023-08-18_at_9.03.11_PM.png) -->
 
 
 $$
@@ -87,6 +95,20 @@ They are functions that measure the percentage of error that the network model h
 
 Moment ⇒ It is used to calculate the rate or speed of Learning rate in order to find the global minimum.
 
+
+
+What Kind of activation function and losses I should use ??
+
+<center>
+
+| Problem type | Last Hyper-layer Activation | Loss Function |
+| ------------ | :-------------------------: | :-----------: |
+| *Binary classification* | `Sigmoid`        | `binary_crossentropy` |
+| *MultiClass, Single label Classification* | `softmax` | `categorical_crossentropy` |
+| *MultiClass, MultiLabel Classification* | `` |
+
+
+</center>
 
 ## Data types 
 
