@@ -1,5 +1,7 @@
 import numpy as np
 
+
+## Activation functions
 def sigmoid(x, derivate=False):
 
     if derivate:
@@ -16,12 +18,15 @@ def relu(x, derivate = False):
         return np.maximum(0, x)
     
 
+## Losses Function
 def mean_square_error(y,y_hat,derivate=False):
     if derivate:
         return (y_hat - y)
     else:            
         return np.mean((y_hat - y)**2)
-    
+
+
+## Build A basic model   
 def initialize_parameter_deep(layers_dim):
 
     parameters = {}
