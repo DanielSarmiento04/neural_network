@@ -46,3 +46,5 @@ def Train(x_data, lr, params, y,  training=True):
         params['b1'] = params['b1'] - (np.mean(params['dZ1'], axis=0, keepdims=True)) * lr
     
     return output
+
+
