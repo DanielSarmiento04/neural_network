@@ -105,10 +105,14 @@ What Kind of activation function and losses I should use ??
 | ------------ | :-------------------------: | :-----------: |
 | *Binary classification* | `Sigmoid`        | `binary_crossentropy` |
 | *MultiClass, Single label Classification* | `softmax` | `categorical_crossentropy` |
-| *MultiClass, MultiLabel Classification* | `` |
-
+| *MultiClass, MultiLabel Classification* | `sigmoid` |  `binary_crossentropy` |
+| *Regression to arbitrary values* | `None` | `mse` |
+| *Regression to values between 0 and 1* | `sigmoid` | `mse or binary_crossentropy ` |
+ 
 
 </center>
+
+## Metrics
 
 ## Data types 
 

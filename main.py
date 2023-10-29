@@ -1,13 +1,13 @@
 import numpy as np
 from matplotlib import pyplot as plt
 from sklearn.datasets import make_gaussian_quantiles
-from tools import (
+from examples.classification.tools import (
     sigmoid,
     relu,
     mean_square_error,
     initialize_parameter_deep
 )
-from nn import (
+from examples.classification.nn import (
     Train,
 )
 
